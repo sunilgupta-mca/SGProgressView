@@ -3,6 +3,7 @@ A simple code to add/remove loader view.
 It supports iOS 11 and above.
 
 **How to instasll:**
+
 To install it, use below line in your podfile:
 
 pod 'SGProgressView', '~> 1.0'
