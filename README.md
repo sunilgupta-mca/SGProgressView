@@ -37,6 +37,11 @@ If by mistake you call it more then once in a source view, in that case also it 
 **To Hide Loader View:Use Below code to hide loader view:**
 1. ProgressIndicatorView.removeLoadingView(sourceView: self.view)
 
+/* It will remove the loader added on any particular view abnd then view looks orignal.*/
+
+![5](https://user-images.githubusercontent.com/65818613/83126186-1bfa2a00-a0f6-11ea-86f6-c6a2a51d3049.png)
+
+
 
 Feel free to use this solution in your code.
 ******Happy Coding******
