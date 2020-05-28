@@ -30,9 +30,17 @@ If by mistake you call it more then once in a source view, in that case also it 
 
 4. ProgressIndicatorView.addLoadingView(sourceView: self.view, withMessage: "Please wait...", isTabBarView: true, yAxisValue: 100 , alpha: 0.65)
 
-/* Hear yAxisValue is CGFloat whilc will usefull for Margin from top while showing loader. */
+/* Hear yAxisValue is CGFloat whilc will usefull for Margin from top while showing loader. Here isTabBarView is true hence there will be some bottom margin (which is eqivalent to tab bar height) so that user can navigate to different tabs when loader is showing on any specific tab's viewcontroller.*/
 
 ![4](https://user-images.githubusercontent.com/65818613/83125885-b9a12980-a0f5-11ea-9454-fec582981721.png)
+
+
+5. ProgressIndicatorView.addLoadingView(sourceView: customViewName,  withMessage: "fetching...", isTabBarView: true)
+
+/* By using this code you can show loadewr on any specificView, hence user interaction will be enable rest of the screen.*/
+
+![7](https://user-images.githubusercontent.com/65818613/83128609-47324880-a0f9-11ea-9e35-4d8d3a6a2586.png)
+
 
 **To Hide Loader View:Use Below code to hide loader view:**
 1. ProgressIndicatorView.removeLoadingView(sourceView: self.view)
@@ -41,7 +49,7 @@ If by mistake you call it more then once in a source view, in that case also it 
 
 ![5](https://user-images.githubusercontent.com/65818613/83126186-1bfa2a00-a0f6-11ea-86f6-c6a2a51d3049.png)
 
-
+![6](https://user-images.githubusercontent.com/65818613/83129118-f40cc580-a0f9-11ea-91d3-c854065a6020.png)
 
 Feel free to use this solution in your code.
 ******Happy Coding******
