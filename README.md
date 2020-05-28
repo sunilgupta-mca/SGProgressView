@@ -37,7 +37,7 @@ If by mistake you call it more then once in a source view, in that case also it 
 
 5. ProgressIndicatorView.addLoadingView(sourceView: customViewName,  withMessage: "fetching...", isTabBarView: true)
 
-/* By using this code you can show loadewr on any specificView, hence user interaction will be enable rest of the screen.*/
+/* By using this code you can show loader on any specific view, hence user interaction will be enable rest of the screen.*/
 
 ![7](https://user-images.githubusercontent.com/65818613/83128609-47324880-a0f9-11ea-9e35-4d8d3a6a2586.png)
 
