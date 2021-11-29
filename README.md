@@ -30,7 +30,7 @@ If by mistake you call it more then once in a source view, in that case also it 
 
 4. ProgressIndicatorView.addLoadingView(sourceView: self.view, withMessage: "Please wait...", isTabBarView: true, yAxisValue: 100 , alpha: 0.65)
 
-/* Hear yAxisValue is CGFloat whilc will usefull for Margin from top while showing loader. Here isTabBarView is true hence there will be some bottom margin (which is eqivalent to tab bar height) so that user can navigate to different tabs when loader is showing on any specific tab's viewcontroller.*/
+/* Here yAxisValue is CGFloat whilc will usefull for Margin from top while showing loader. Here isTabBarView is true hence there will be some bottom margin (which is eqivalent to tab bar height) so that user can navigate to different tabs when loader is showing on any specific tab's viewcontroller.*/
 
 ![4](https://user-images.githubusercontent.com/65818613/83125885-b9a12980-a0f5-11ea-9454-fec582981721.png)
 
